@@ -1,0 +1,46 @@
+muestra informacion en la pantalla
+echo = al print 
+
+CREAR VARIABLES
+$nombre = "juliana"
+
+
+CONCATENAR HTML Y PHP
+echo '<h1>'.$nombre.'</h1>
+echo '<h1> tu nombre es'.$nombre.'</h1>
+echo '<h1>'.$nombre.'</h1>
+echo '<h2> tu nombre es'.$nombre.'<br> <h3> tu edad es '.$edad.'</h3> </br> <h2>'
+
+
+CONSOLE LOG EN PHP pero en pantalla
+var_dump($nombre).'<br>'
+
+ //  echo gettype($verdadero).' </b>';
+//  echo gettype($decimal).' </b>';
+//var_dump($nombre).'<br>'
+
+
+ CONSTANTES
+ -Definir
+estas se definen asi
+define('nombre de la constante', 'valor de la constante')
+con en todos los lenguajes no se puede volver a DEFINIR
+-Imprimir
+echo nombredelaconstante
+
+OBTENER DATOS DE UN FORMULARIO
+Basicamente cuando haces un post, y debes usarlo 
+$_POST = se guarda
+$_GET = creo que funciona igual que como venimos trabajando
+
+
+
+
+//ISSET
+VERIFICA SI LA VARIABLE EXISTE
+
+
+PARA USAR LAS VARIABLES GLOBALES DEBO COLOCAR DONDE LA VAYA A USAR
+GLOBAL $VARIABLE
+
+
